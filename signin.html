@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Sign In | Questioner</title>
+   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" />
+   <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+   <link rel="stylesheet" href="./css/style.css" />
+ </head>
+
+ <body>
+
+   <nav class="navbar navbar-fixed-top navbar-toggleable-sm navbar-inverse bg-primary mb-3">
+     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+       data-target="#collapsingNavbar">
+       <span class="navbar-toggler-icon"></span>
+     </button>
+     <div class="flex-row d-flex">
+       <a class="navbar-brand mb-1" href="#">QUESTIONER</a>
+       <button type="button" class="hidden-md-up navbar-toggler" data-toggle="offcanvas"
+         title="Toggle responsive left sidebar">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+     </div>
+     <div class="navbar-collapse collapse" id="collapsingNavbar">
+       <ul class="navbar-nav">
+         <li class="nav-item active">
+           <a class="nav-link" href="#">Home <span class="sr-only">Home</span></a>
+         </li>
+       </ul>
+       <ul class="navbar-nav ml-auto">
+         <li class="nav-item">
+           <a class="nav-link" href="" data-target="#myModal" data-toggle="modal">Logout</a>
+         </li>
+       </ul>
+     </div>
+   </nav>
+   <div class="container-fluid" id="main">
+        <div class="container-fluid" id="main">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-3 col-md-2"></div>
+                    <div class="col-lg-6 col-md-8 login-box">
+             
+                      <div class="col-lg-12 login-form">
+                        <div class="col-lg-12 login-form">
+                          <form>
+                            <div class="text-center">
+                              <h1>Sign in
+             
+                              </h1>
+                            </div>
+                            <div class="form-group">
+                              <label class="form-control-label">EMAIL</label>
+                              <input type="email" class="form-control">
+                            </div>
+                            <div class="form-group">
+                              <label class="form-control-label">PASSWORD</label>
+                              <input type="password" class="form-control" i>
+                            </div>
+                            
+                            <div class="col-lg-12 loginbttm">
+                              <div class="col-lg-6 login-btm login-text">
+                                <!-- Error Message -->
+                              </div>
+                              <div class="col-lg-6 login-btm login-button text-center">
+                                <button type="submit" class="btn btn-outline-primary">SIGN IN</button>
+                              </div>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+   </div>
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+
+
+
+ <script>
+   $(document).ready(function () {
+     $("[data-toggle=offcanvas]").click(function () {
+       $(".row-offcanvas").toggleClass("active");
+     });
+   });
+ </script>
+
+ </body>
+
+</html>
