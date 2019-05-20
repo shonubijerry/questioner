@@ -133,6 +133,12 @@ Sign in and sign up
     float: left;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
  }
+
+ /* @media screen and (min-width: 1024px) {
+    .btn-outline-primary {
+        float: left;
+     }
+ } */
  
  .btn-outline-primary:hover {
     background-color: #0DB8DE;
@@ -140,7 +146,7 @@ Sign in and sign up
  }
  
  .login-btm {
-    float: left;
+    float: right;
  }
  
  .login-button {
